@@ -1,7 +1,7 @@
 
 var app = app || {};
 
-app.nodeModel = Backbone.Model.extend({
+app.nodeModel = Backbone.Model.extend({ 
 
 
 
