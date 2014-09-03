@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>MVC-Carousel</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <section  class="carouselContainer">  
+       <article class="carousel">
+        <script id="appendCarousel" type="text/template"> 
+           <a href='<%= url %>' title='<%= title %>' ><img alt='<%= imgTitle %>' src='<%= src %>' /> </a>
+        </script>
+        </article>
+    </section>
+
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/underscore.js"></script>
+  <script src="js/libs/backbone.js"></script>
+  <script src="js/models/nodeModel.js"></script>
+  <script src="js/views/nodeView.js"></script>
+  <script src="js/views/carouselView.js"></script>
+  <script src="js/collections/nodesCollection.js"></script>
+  <script src="js/routes/router.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/carousel/carousel.js"></script>
+
+</body>
+</html>
